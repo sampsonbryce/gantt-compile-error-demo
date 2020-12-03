@@ -1,0 +1,18 @@
+{
+  "name": "test-gantt-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gantt-schedule-timeline-calendar": "3.5.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
