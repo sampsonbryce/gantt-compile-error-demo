@@ -2,38 +2,43 @@
 # yarn lockfile v1
 
 
-"@neuronet.io/vido@^3.2.0":
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/@neuronet.io/vido/-/vido-3.2.6.tgz#e37224d1b47475382e138f0c9b0cd5ed1a134c04"
-  integrity sha512-gOOgbMumPx+2ws5X8hdUomj55uE5Gz2HSb7OfmeExFXu7/cEPpHgZ0PIuDMo5qjovFE/rQBO9P/aPlWnct9QHA==
+"@neuronet.io/vido@^3.2.7":
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/@neuronet.io/vido/-/vido-3.2.7.tgz#cb3b825f21119194ca80dccd402fde2073cebb0b"
+  integrity sha512-sNn6SjJf/i0E9yu0tR7pT9L+RQ7unp+e0gejpmbux8NsaoVREPPdSJlZFosii/xQ00EHx1W+XdMKKuiv1t1BJw==
   dependencies:
     csstype "^2.6.10"
     lit-html-optimised "^1.3.0"
 
-csstype@3.0.5, csstype@^2.6.10, csstype@^3.0.3:
+csstype@^2.6.10:
+  version "2.6.14"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.14.tgz#004822a4050345b55ad4dcc00be1d9cf2f4296de"
+  integrity sha512-2mSc+VEpGPblzAxyeR+vZhJKgYg0Og0nnRi7pmRXFYYxSfnOnW8A5wwQb4n4cE2nIOzqKOAzLCaEX6aBmNEv8A==
+
+csstype@^3.0.5:
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.5.tgz#7fdec6a28a67ae18647c51668a9ff95bb2fa7bb8"
   integrity sha512-uVDi8LpBUKQj6sdxNaTetL6FpeCqTjOvAQuQUa/qAqq8oOd4ivkbhgnqayl0dnPal8Tb/yB1tF+gOvCBiicaiQ==
 
-dayjs@^1.8.35:
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.9.6.tgz#6f0c77d76ac1ff63720dd1197e5cb87b67943d70"
-  integrity sha512-HngNLtPEBWRo8EFVmHFmSXAjtCX8rGNqeXQI0Gh7wCTSqwaKgPIDqu9m07wABVopNwzvOeCb+2711vQhDlcIXw==
+dayjs@^1.9.7:
+  version "1.9.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.9.7.tgz#4b260bb17dceed2d5f29038dfee03c65a6786fc0"
+  integrity sha512-IC877KBdMhBrCfBfJXHQlo0G8keZ0Opy7YIIq5QKtUbCuHMzim8S4PyiVK4YmihI3iOF9lhfUBW4AQWHTR5WHA==
 
-deep-state-observer@^3.20.1:
-  version "3.22.8"
-  resolved "https://registry.yarnpkg.com/deep-state-observer/-/deep-state-observer-3.22.8.tgz#1dec4d71a61d3eba46cb0e0f5d06b6fd935ddda2"
-  integrity sha512-FgAAsH+tFML/laC0dT2YWc9w0SYwZcUzm9Jy5cIpyDzNrGeetc2UUCMWLrhIZFEd/g0HZwhWo79t9eAKVWjE+w==
+deep-state-observer@^3.22.8:
+  version "3.22.9"
+  resolved "https://registry.yarnpkg.com/deep-state-observer/-/deep-state-observer-3.22.9.tgz#83906a3f5ba72e73a62df9d9636bc83c10f1913f"
+  integrity sha512-NxXr7T6oqI1VHCP1V//aWaDH6m3mO1JsMvAgoc6r5bheuLAkd8VlrNqKHDWRUx6oiwLZL68/e5kiNOqIvfpVow==
 
-gantt-schedule-timeline-calendar@3.5.5:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/gantt-schedule-timeline-calendar/-/gantt-schedule-timeline-calendar-3.5.5.tgz#11f34d5d7c2156d89fd47e9d5bbc9fdbe9f44014"
-  integrity sha512-tX09TZHARnsCYVBzyejQgxrL/ZsgAwibgFhjTXmJWcSxUTkTY3Gx15V0XB+o27vZUjXlb95hl+cYRN7KAxlESw==
+gantt-schedule-timeline-calendar@3.6.5:
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/gantt-schedule-timeline-calendar/-/gantt-schedule-timeline-calendar-3.6.5.tgz#41015e0ba21bca9a8eaf25f6313f0c9d910491f0"
+  integrity sha512-F+q2NgbEidYtRTAPfVtIdFKiec7XiJLchuYvEj9PYs/hz8iyDB1rZGsja5wNyutK4Njn7kmRBvYe+OK9tnzbjA==
   dependencies:
-    "@neuronet.io/vido" "^3.2.0"
-    csstype "^3.0.3"
-    dayjs "^1.8.35"
-    deep-state-observer "^3.20.1"
+    "@neuronet.io/vido" "^3.2.7"
+    csstype "^3.0.5"
+    dayjs "^1.9.7"
+    deep-state-observer "^3.22.8"
 
 lit-html-optimised@^1.3.0:
   version "1.3.0"
